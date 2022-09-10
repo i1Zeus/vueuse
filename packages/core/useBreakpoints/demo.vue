@@ -6,7 +6,7 @@ const breakpoints = useBreakpoints(breakpointsTailwind)
 const smWidth = breakpointsTailwind.sm
 
 const sm = breakpoints.smaller('sm')
-const sme = breakpoints.smallerOrEqual('sm')
+const sme = breakpoints.isSmaller('sm')
 const md = breakpoints.between('sm', 'md')
 const lg = breakpoints.between('md', 'lg')
 const xl = breakpoints.between('lg', 'xl')
